@@ -8,6 +8,7 @@ cursor = db.cursor()
 
 studId=raw_input("Enter Student Id: ")
 name = raw_input("Enter Student Naame: ")
+grade=raw_input("Enter Student Grade: ")
 
 
 sql = "Insert into student(studentID, studentName)\
